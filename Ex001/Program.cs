@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Получить случайное 3-значное число, выделить первую и последнюю цифры и создать из них двузначное число
 Console.WriteLine("Введите число");
 int num = new Random().Next(100,999);
 //if(int.TryParse(ReadLine(), out int num));
