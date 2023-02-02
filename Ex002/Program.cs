@@ -18,6 +18,7 @@ if (Dig1%Dig2==0)
 else
 {
     Console.WriteLine("Число "+ Dig1 + " не кратно числу " + Dig2);
+    Console.WriteLine("Остаток от деления "+ Dig1 + " на " + Dig2 + " равен " + Dig1 % Dig2);
 }
 
 Console.WriteLine();
